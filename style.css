@@ -234,3 +234,35 @@ header {
     color: var(--second-color);
     transition: 0.5s all linear;
 }
+
+/* Delivery */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 4rem 3.5% 3.5%;
+}
+
+.delivery-img{
+    flex: 1 1 21rem;
+}
+
+.delivery-img img{
+    border-radius: 0.5rem;
+}
+
+.delivery-text{
+    flex:  1 1 21rem;
+}
+
+.delivery-text h2{
+    font-size: 1.2rem;
+    color: var(--second-color);
+}
+
+.delivery-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
+
